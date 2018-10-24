@@ -94,7 +94,7 @@ function displayCurrentWeather(json) {
   const highTemp = convertKelvinToFahrenheit(highTempInKelvin)
   const lowTemp = convertKelvinToFahrenheit(lowTempInKelvin)
   
-  const tempParagraph = getParagraphWithRoundedTemp(temp)
+  // const tempParagraph = getParagraphWithRoundedTemp(temp)
   const lowTempParagraph = getParagraphWithRoundedTemp(lowTemp)
   const highTempParagraph = getParagraphWithRoundedTemp(highTemp)
   const humidityParagraph = getParagraphWithPercentage(humidity)
@@ -102,6 +102,9 @@ function displayCurrentWeather(json) {
   
   // document.querySelector('#temp').appendChild(tempParagraph)
   
+  
+  const tempParagraph = document.createElement('p')
+  tempParagraph.innerText = `${temp.toFixed(0)} deg.`
   const tempArea = document.querySelector('#temp')
   tempArea.appendChild(tempParagraph)
   
