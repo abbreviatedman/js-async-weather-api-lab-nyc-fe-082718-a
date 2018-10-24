@@ -46,6 +46,8 @@ const getParagraphWithRoundedTemp = (number) => {
   return paragraph
 }
 
+getParagraphWithRoundedTemp(5.15) // -> <p>5 deg.</p>
+
 const getParagraphWithPercentage = (number) => {
   const paragraph = document.createElement('p')
   paragraph.innerText = `${number.toFixed(0)}%`
