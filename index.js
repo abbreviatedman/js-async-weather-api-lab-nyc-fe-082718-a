@@ -101,6 +101,7 @@ function displayCurrentWeather(json) {
   // document.querySelector('#temp').appendChild(tempParagraph)
   
   const tempArea = document.querySelector('#temp')
+  tempArea.appendChild(tempParagraph)
   
   document.querySelector('#low').appendChild(lowTempParagraph)
   document.querySelector('#high').appendChild(highTempParagraph)
