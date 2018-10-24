@@ -1,6 +1,14 @@
 const API_KEY = "2160d09f789779bb4066ad717208144a"
 
 
+// humidity is at: json.main.humidity
+
+// temps are in KELVIN FOR SOME REASON
+
+
+
+
+
 const cleanCityInput = (city) => city.split(' ').join('+')
 
 const convertKelvinToFahrenheit = (tempInKelvin) => ((tempInKelvin - 273.15) * 9 / 5 + 32)
