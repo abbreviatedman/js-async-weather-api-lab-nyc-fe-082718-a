@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function handleFormSubmit(event) {
   event.preventDefault()
   
-  
+  document.querySelector('.city')
 }
 
 
