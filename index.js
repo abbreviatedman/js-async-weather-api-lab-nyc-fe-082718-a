@@ -110,8 +110,8 @@ function displayCurrentWeather(json) {
   
   const lowTempParagraph = document.createElement('p')
   lowTempParagraph.innerText = `${lowTemp.toFixed(0)} deg.`
-  const tempArea = document.querySelector('#temp')
-  tempArea.appendChild(tempParagraph)
+  const lowTempArea = document.querySelector('#low')
+  lowTempArea.appendChild(lowTempParagraph)
   
   document.querySelector('#low').appendChild(lowTempParagraph)
   document.querySelector('#high').appendChild(highTempParagraph)
