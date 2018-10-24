@@ -9,10 +9,21 @@ const API_KEY = "2160d09f789779bb4066ad717208144a"
 /*
 
 
+******  Basic fetch request for weather *****
+
+fetch(`https://api.openweathermap.org/data/2.5/weather?q=New York&APPID=2160d09f789779bb4066ad717208144a`)
+  .then(response => response.json())
+  .then(json => lookAtJson(json))
 
 
 
 */
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener
+})
+
+
 
 
 const cleanCityInput = (city) => city.split(' ').join('+')
