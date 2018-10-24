@@ -20,8 +20,7 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=New York&APPID=2160d09f
 */
 
 document.addEventListener('DOMContentLoaded', () => {
-  const submitButton = document.querySelector('.submit-button')
-  submit-button.addEventListener()
+  document.querySelector('.submit-button').addEventListener()
 })
 
 
