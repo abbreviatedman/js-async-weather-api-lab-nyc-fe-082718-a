@@ -98,7 +98,10 @@ function displayCurrentWeather(json) {
   const humidityParagraph = getParagraphWithPercentage(humidity)
   const cloudCoverParagraph = getParagraphWithText(cloudCover)
   
-  document.querySelector('#temp').appendChild(tempParagraph)
+  // document.querySelector('#temp').appendChild(tempParagraph)
+  
+  const tempArea = document.querySelector('#temp')
+  
   document.querySelector('#low').appendChild(lowTempParagraph)
   document.querySelector('#high').appendChild(highTempParagraph)
   document.querySelector('#humidity').appendChild(humidityParagraph)
