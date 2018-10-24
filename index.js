@@ -6,7 +6,13 @@ const API_KEY = "2160d09f789779bb4066ad717208144a"
 // temps are in KELVIN FOR SOME REASON
 
 
+/*
 
+
+
+
+
+*/
 
 
 const cleanCityInput = (city) => city.split(' ').join('+')
